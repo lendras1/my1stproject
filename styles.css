@@ -1,0 +1,138 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: #605f5f;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    display:grid
+}
+
+
+.center {
+
+   text-align: center;
+   display: grid;
+   font-size: large;
+   color: #696868;
+   
+   
+}
+
+
+input[type="text"] {
+    width: 250px;
+   padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+ 
+
+}
+
+button {
+    background-color: #636465;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 70px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+
+}
+
+
+
+.container {
+    background: linear-gradient(to top, #65c1f9, #e2ebf0);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    display: grid;
+    height: 560px;
+    width: 1150px;
+  
+
+}
+
+
+.time {
+
+    display:flex;
+    color: rgb(42, 42, 42);
+
+}
+
+.date {
+
+margin:0 10px;
+color: rgb(42, 42, 42);
+
+
+}
+
+
+
+.cardCuaca {
+
+    background-color: #fffefd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    height: 130px;
+    display: inline-block;
+    display: flex; 
+        
+    
+}
+
+
+.cardCuaca1 {
+
+    background-color: #fffefd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    margin: 11px;
+    padding: 20px;
+    width: 130px;
+    height: 170px;
+    display: inline-block; 
+    display: grid;
+    
+}
+
+
+.cardEnamHari {
+
+
+    width: 100%;
+    display:flex
+    
+     
+}
+
+
+.weatherInfo {
+    color: #383838;
+    font-size: 14px;
+    text-align: left;
+    margin:0 20px;
+  
+}
+
+.weatherInfo1 {
+
+color: #383838;
+    font-size: 12px;
+    text-align: left;
+    display: grid
+}
+
+
