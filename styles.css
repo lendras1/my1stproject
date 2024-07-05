@@ -91,6 +91,7 @@ color: rgb(42, 42, 42);
     height: 130px;
     display: inline-block;
     display: flex; 
+    justify-content: center;
         
     
 }
@@ -103,10 +104,11 @@ color: rgb(42, 42, 42);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
     margin: 11px;
     padding: 20px;
-    width: 130px;
+   /* width: 130px; */
     height: 170px;
     display: inline-block; 
     display: grid;
+    align-items: center;
     
 }
 
